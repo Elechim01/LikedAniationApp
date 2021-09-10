@@ -17,6 +17,8 @@
 		C4469A9626EBBAE800C14426 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4469A6E26EBBAE600C14426 /* ContentView.swift */; };
 		C4469A9726EBBAE800C14426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4469A6F26EBBAE800C14426 /* Assets.xcassets */; };
 		C4469A9826EBBAE800C14426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4469A6F26EBBAE800C14426 /* Assets.xcassets */; };
+		C4469AAA26EBBBEA00C14426 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4469AA926EBBBEA00C14426 /* Post.swift */; };
+		C4469AAC26EBBC4000C14426 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4469AAB26EBBC4000C14426 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		C4469A8B26EBBAE800C14426 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4469A8F26EBBAE800C14426 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C4469A9126EBBAE800C14426 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		C4469AA926EBBBEA00C14426 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		C4469AAB26EBBC4000C14426 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		C4469A6C26EBBAE600C14426 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C4469AA826EBBBD800C14426 /* Model */,
+				C4469AA726EBBBD000C14426 /* View */,
 				C4469A6D26EBBAE600C14426 /* LikedAniationAppApp.swift */,
 				C4469A6E26EBBAE600C14426 /* ContentView.swift */,
 				C4469A6F26EBBAE800C14426 /* Assets.xcassets */,
@@ -129,6 +135,22 @@
 				C4469A9126EBBAE800C14426 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		C4469AA726EBBBD000C14426 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4469AAB26EBBC4000C14426 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4469AA826EBBBD800C14426 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4469AA926EBBBEA00C14426 /* Post.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +311,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4469AAA26EBBBEA00C14426 /* Post.swift in Sources */,
 				C4469A9526EBBAE800C14426 /* ContentView.swift in Sources */,
+				C4469AAC26EBBC4000C14426 /* Home.swift in Sources */,
 				C4469A9326EBBAE800C14426 /* LikedAniationAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
